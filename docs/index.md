@@ -174,6 +174,18 @@
 ## Chronograf
 * [https://github.com/influxdata/chronograf](https://github.com/influxdata/chronograf)
 
+## Superset
+* [https://superset.incubator.apache.org/](https://superset.incubator.apache.org/)
+
+## Metabase
+* [https://www.metabase.com/](https://www.metabase.com/)
+
+## redash
+* [https://redash.io/](https://redash.io/)
+
+## Zeppelin
+* [https://zeppelin.apache.org/](https://zeppelin.apache.org/)
+
 ---
 
 # Log Collector
@@ -279,6 +291,7 @@
 ## Google Cloud
 * [https://cloud.google.com/](https://cloud.google.com/)
 * [Google Big query](https://cloud.google.com/bigquery/)
+* [Data Studio](https://datastudio.google.com/)
 
 ## Microsoft Azure
 * [https://azure.microsoft.com](https://azure.microsoft.com)
