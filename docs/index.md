@@ -67,6 +67,10 @@
 * [https://spark.apache.org/](https://spark.apache.org/)
 * [https://www.datacamp.com/community/tutorials/apache-spark-python](https://www.datacamp.com/community/tutorials/apache-spark-python)
 
+## Imply 
+* [https://imply.io/](https://imply.io/)
+* powered by [Druid](#druid)
+
 ## Presto
 * [https://prestodb.io/](https://prestodb.io/)
 
@@ -151,6 +155,9 @@
 
 ## Riak
 *[ https://github.com/basho/riak](https://github.com/basho/riak)
+
+## Druid
+* [http://druid.io/](http://druid.io/)
 
 ---
 
