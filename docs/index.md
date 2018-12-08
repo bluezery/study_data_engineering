@@ -20,7 +20,7 @@
 # Workflow
 ## Airflow
   * [https://airflow.apache.org/](https://airflow.apache.org/)
-  * [Airflow Study](airflow/index.md)
+  * [Airflow Study](airflow/)
 
 ## Azkaban
 * [https://azkaban.github.io/](https://azkaban.github.io/)
@@ -61,7 +61,7 @@
 
 ## Hive
 * [https://hive.apache.org/](https://hive.apache.org/)
-* [Hive Study](hive/index.md)
+* [Hive Study](hive/)
 
 ## Spark
 * [https://spark.apache.org/](https://spark.apache.org/)
@@ -89,13 +89,14 @@
 # File System
 ## HDFS
 * [https://hadoop.apache.org/docs/r1.2.1/hdfs_design.html](https://hadoop.apache.org/docs/r1.2.1/hdfs_design.html)
-* [HDFS Study](hdfs/index.md)
+* [HDFS Study](hdfs/)
 
 ---
 
 # Data Serialization Formats
 ## ORC
 * [https://orc.apache.org/](https://orc.apache.org/)
+* [ORC Study](orc/)
 
 ## Avro
 * [https://avro.apache.org/](https://avro.apache.org/)
@@ -241,16 +242,16 @@
 * [https://www.openshift.com/](https://www.openshift.com/)
 
 ## Openstack
-* https://www.openstack.org/
+* [https://www.openstack.org/](https://kubernetes.io/)
 
 ## Docker
-- https://www.docker.com/
+- [https://www.docker.com/](https://kubernetes.io/)
 
 ## DC/OS
-- https://dcos.io/
+- [https://dcos.io/](https://kubernetes.io/)
 
 ## Kubernetes
-- https://kubernetes.io/
+- [https://kubernetes.io/](https://kubernetes.io/)
 
 ## Hadoop Ecosystem
 [hadoop](https://hadoop.apache.org/)
@@ -260,7 +261,7 @@
 * Monitoring
     * [Ambari](https://hadoop.apache.org/)
 * Database
-    * [HBase](hbase)
+    * [HBase](#hbase)
 * Processing
     * [Map Reduce](#mapreduce)
     * [hive](#hive)
