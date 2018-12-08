@@ -241,16 +241,16 @@
 * [https://www.openshift.com/](https://www.openshift.com/)
 
 ## Openstack
-* https://www.openstack.org/
+* [https://www.openstack.org/](https://kubernetes.io/)
 
 ## Docker
-- https://www.docker.com/
+- [https://www.docker.com/](https://kubernetes.io/)
 
 ## DC/OS
-- https://dcos.io/
+- [https://dcos.io/](https://kubernetes.io/)
 
 ## Kubernetes
-- https://kubernetes.io/
+- [https://kubernetes.io/](https://kubernetes.io/)
 
 ## Hadoop Ecosystem
 [hadoop](https://hadoop.apache.org/)
@@ -260,7 +260,7 @@
 * Monitoring
     * [Ambari](https://hadoop.apache.org/)
 * Database
-    * [HBase](hbase)
+    * [HBase](#hbase)
 * Processing
     * [Map Reduce](#mapreduce)
     * [hive](#hive)
