@@ -67,7 +67,7 @@
 * [https://spark.apache.org/](https://spark.apache.org/)
 * [https://www.datacamp.com/community/tutorials/apache-spark-python](https://www.datacamp.com/community/tutorials/apache-spark-python)
 
-## Imply 
+## Imply
 * [https://imply.io/](https://imply.io/)
 * powered by [Druid](#druid)
 
@@ -88,42 +88,7 @@
 ## Drill
 * [https://drill.apache.org/](https://drill.apache.org/)
 
----
-
-# File System
-## HDFS
-* [https://hadoop.apache.org/docs/r1.2.1/hdfs_design.html](https://hadoop.apache.org/docs/r1.2.1/hdfs_design.html)
-* [HDFS Study](hdfs/)
-
----
-
-# Data Serialization Formats
-## ORC
-* [https://orc.apache.org/](https://orc.apache.org/)
-* [ORC Study](orc/)
-
-## Avro
-* [https://avro.apache.org/](https://avro.apache.org/)
-
-## JSON 
-* [https://json.org/](https://json.org/)
-
-## BSON
-* [http://bsonspec.org/](http://bsonspec.org/)
-
-## Protocol Buffers
-* [https://developers.google.com/protocol-buffers/](https://developers.google.com/protocol-buffers/)
-
-## Thrift
-* [https://thrift.apache.org/](https://thrift.apache.org/)
-
-## YAML
-* [https://yaml.org/](https://yaml.org/)
-
-## XML
-* [https://www.w3.org/TR/REC-xml/](https://www.w3.org/TR/REC-xml/)
-
----
+----
 
 # Databases
 ## MySQL
@@ -154,7 +119,7 @@
 * [http://cassandra.apache.org/](http://cassandra.apache.org/)
 
 ## Riak
-*[ https://github.com/basho/riak](https://github.com/basho/riak)
+* [ https://github.com/basho/riak](https://github.com/basho/riak)
 
 ## Druid
 * [http://druid.io/](http://druid.io/)
@@ -192,6 +157,41 @@
 
 ## Zeppelin
 * [https://zeppelin.apache.org/](https://zeppelin.apache.org/)
+
+---
+
+# File System
+## HDFS
+* [https://hadoop.apache.org/docs/r1.2.1/hdfs_design.html](https://hadoop.apache.org/docs/r1.2.1/hdfs_design.html)
+* [HDFS Study](hdfs/)
+
+---
+
+# Data Serialization Formats
+## ORC
+* [https://orc.apache.org/](https://orc.apache.org/)
+* [ORC Study](orc/)
+
+## Avro
+* [https://avro.apache.org/](https://avro.apache.org/)
+
+## JSON
+* [https://json.org/](https://json.org/)
+
+## BSON
+* [http://bsonspec.org/](http://bsonspec.org/)
+
+## Protocol Buffers
+* [https://developers.google.com/protocol-buffers/](https://developers.google.com/protocol-buffers/)
+
+## Thrift
+* [https://thrift.apache.org/](https://thrift.apache.org/)
+
+## YAML
+* [https://yaml.org/](https://yaml.org/)
+
+## XML
+* [https://www.w3.org/TR/REC-xml/](https://www.w3.org/TR/REC-xml/)
 
 ---
 
@@ -275,8 +275,6 @@
 ## Hadoop Ecosystem
 [hadoop](https://hadoop.apache.org/)
 
-* Resource Manager
-    * [Yarn](https://hadoop.apache.org/docs/current/hadoop-yarn/hadoop-yarn-site/YARN.html)
 * Monitoring
     * [Ambari](https://hadoop.apache.org/)
 * Database
@@ -285,8 +283,28 @@
     * [Map Reduce](#mapreduce)
     * [hive](#hive)
     * [Pig](#pig)
+* Execution Engine
+    * [Tez](https://tez.apache.org/)
+* Resource Manager
+    * [Yarn](https://hadoop.apache.org/docs/current/hadoop-yarn/hadoop-yarn-site/YARN.html)
 * FileSystem
     * [HDFS](#hdfs)
+
+---
+
+# Security
+
+## Kerberos
+* [https://web.mit.edu/kerberos/](https://ranger.apache.org/)
+
+## LDAP
+* [https://tools.ietf.org/rfc/rfc4511.txt](https://tools.ietf.org/rfc/rfc4511.txt)
+
+## Knox
+* [https://knox.apache.org/](https://knox.apache.org/)
+
+## Ranger
+* [https://ranger.apache.org/](https://ranger.apache.org/)
 
 ---
 
