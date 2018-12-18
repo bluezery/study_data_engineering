@@ -67,17 +67,24 @@
 * [https://spark.apache.org/](https://spark.apache.org/)
 * [https://www.datacamp.com/community/tutorials/apache-spark-python](https://www.datacamp.com/community/tutorials/apache-spark-python)
 
-## Imply
-* [https://imply.io/](https://imply.io/)
-* powered by [Druid](#druid)
-
 ## Presto
 * [https://prestodb.io/](https://prestodb.io/)
 
+## Storm
+* [http://storm.apache.org](http://storm.apache.org)
+
 ## Impala
+* [https://impala.apache.org](https://impala.apache.org)
 
 ## Pig
-- [https://pig.apache.org/](https://pig.apache.org/)
+* [https://pig.apache.org/](https://pig.apache.org/)
+
+# Samza
+* [http://samza.apache.org](http://samza.apache.org)
+
+## Imply
+* [https://imply.io/](https://imply.io/)
+* powered by [Druid](#druid)
 
 ## Mahout
 * [http://mahout.apache.org/](http://mahout.apache.org/)
