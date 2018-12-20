@@ -238,6 +238,12 @@
 ## Chef
 * [https://www.chef.io/chef/](https://www.chef.io/chef/)
 
+## Salt
+* [https://github.com/saltstack/salt](https://github.com/saltstack/salt)
+
+## CFEngine
+* [https://github.com/cfengine/core](https://github.com/cfengine/core)
+
 ## Puppet
 * [https://github.com/puppetlabs/puppet](https://github.com/puppetlabs/puppet)
 
