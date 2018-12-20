@@ -95,6 +95,9 @@
 ## Drill
 * [https://drill.apache.org/](https://drill.apache.org/)
 
+## Kylin
+* [http://kylin.apache.org](http://kylin.apache.org)
+
 ----
 
 # Databases
@@ -273,11 +276,33 @@
 ## Docker
 - [https://www.docker.com/](https://kubernetes.io/)
 
+### Docker Swarm
+- Docker Swarm is native clustering for Docker. It turns a pool of Docker hosts into a single, virtual host.
+- [https://github.com/docker/swarm](https://github.com/docker/swarm)
+
+## Kubernetes
+- Kubernetes (k8s) is an open-source system for automating deployment, scaling, and management of containerized applications.
+- [https://kubernetes.io/](https://kubernetes.io/)
+
+### flannel
+- Flannel is a simple and easy way to configure a layer 3 network fabric designed for Kubernetes.
+- [https://github.com/coreos/flannel]()
+
+## CoreOS
+- Key components to secure, simplify and automate your container infrastructure
+- [https://github.com/coreos/](https://github.com/coreos/)
+
+## etcd
+- etcd is a distributed reliable key-value store for the most critical data of a distributed system, with a focus on being:
+- [https://github.com/etcd-io/etcd-io](https://github.com/etcd-io/etcd)
+
+
 ## DC/OS
 - [https://dcos.io/](https://kubernetes.io/)
 
-## Kubernetes
-- [https://kubernetes.io/](https://kubernetes.io/)
+
+
+
 
 ## Hadoop Ecosystem
 [hadoop](https://hadoop.apache.org/)
