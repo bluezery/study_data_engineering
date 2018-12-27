@@ -44,6 +44,9 @@
 ## RabbitMQ
 * [https://www.rabbitmq.com/](https://www.rabbitmq.com/)
 
+## Sqoop
+* [http://sqoop.apache.org/](http://sqoop.apache.org/)
+
 ---
 
 # Data Stream Processing
@@ -168,6 +171,8 @@
 ## Zeppelin
 * [https://zeppelin.apache.org/](https://zeppelin.apache.org/)
 
+## IBM Cognos Analytics
+* [https://www.ibm.com/products/cognos-analytics](https://www.ibm.com/products/cognos-analytics)
 ---
 
 # File System
@@ -391,6 +396,12 @@
 
 # Snowflake
 * [https://www.snowflake.com/](https://www.snowflake.com/)
+
+---
+
+# Libraries
+## Apache Calcite
+* [https://calcite.apache.org/](https://calcite.apache.org/)
 
 ---
 
