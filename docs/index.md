@@ -14,7 +14,7 @@
 * [https://github.com/igorbarinov/awesome-data-engineering](https://github.com/igorbarinov/awesome-data-engineering)
 * [https://github.com/meirwah/awesome-workflow-engines](https://github.com/meirwah/awesome-workflow-engines)
 * [https://github.com/manuzhang/awesome-streaming](https://github.com/manuzhang/awesome-streaming)
-
+* [Docker vs Kubernetes vs Apache Mesos](https://mesosphere.com/wp-content/uploads/2018/08/TheMyth-Infographic-2x.jpg)
 ---
 
 # Workflow
@@ -224,6 +224,7 @@
 ## collectd
 ## dd-agent
 ## Telegraf
+## logrotate
 ## Graphite
 ## Flume
 
@@ -275,45 +276,67 @@
 ## Zookeeper
 * [https://zookeeper.apache.org/](https://zookeeper.apache.org/)
 
+
 ---
 
-# Platform
-## Openshift
-* [https://www.openshift.com/](https://www.openshift.com/)
-
+# IaaS Platform
 ## Openstack
-* [https://www.openstack.org/](https://kubernetes.io/)
+- [What is OpenStack](https://www.openstack.org/software/)
+- [https://www.openstack.org/](https://kubernetes.io/)
 
-## Docker
-- [https://www.docker.com/](https://kubernetes.io/)
+## Amazone EC2
+- Commercial
+- [https://aws.amazon.com/ko/ec2/](https://aws.amazon.com/ko/ec2/)
 
-### Docker Swarm
-- Docker Swarm is native clustering for Docker. It turns a pool of Docker hosts into a single, virtual host.
-- [https://github.com/docker/swarm](https://github.com/docker/swarm)
+## Google Compute Engine
+- Commercial
+- [https://cloud.google.com/compute/?hl=ko](https://cloud.google.com/compute/?hl=ko)
 
-## Kubernetes
-- Kubernetes (k8s) is an open-source system for automating deployment, scaling, and management of containerized applications.
-- [https://kubernetes.io/](https://kubernetes.io/)
+## Azure IaaS
+- Commercial
+- [https://azure.microsoft.com/ko-kr/overview/what-is-azure/iaas/](https://azure.microsoft.com/ko-kr/overview/what-is-azure/iaas/)
 
-### flannel
-- Flannel is a simple and easy way to configure a layer 3 network fabric designed for Kubernetes.
-- [https://github.com/coreos/flannel]()
+## DigitalOcean
+- Commercial
+- [https://www.digitalocean.com/products/droplets/](https://www.digitalocean.com/products/droplets/)
 
+---
+
+# PaaS Platoform
+## Cloud Foundry
+- [https://www.cloudfoundry.org/](https://www.cloudfoundry.org/)
+
+## Amazon Lamda
+- [https://aws.amazon.com/ko/lambda/](https://aws.amazon.com/ko/lambda/)
+
+## Google App Engine
+- Commercial
+- [https://cloud.google.com/appengine/docs/](https://cloud.google.com/appengine/docs/)
+
+## Microsoft App Service
+- Commercial
+- [https://azure.microsoft.com/en-us/services/app-service/?v=18.51](https://azure.microsoft.com/en-us/services/app-service/?v=18.51)
+
+---
+
+# Linux Platform
 ## CoreOS
-- Key components to secure, simplify and automate your container infrastructure
+- A lightweight Linux operating system designed for clustered deployments
 - [https://github.com/coreos/](https://github.com/coreos/)
 
-## etcd
-- etcd is a distributed reliable key-value store for the most critical data of a distributed system, with a focus on being:
-- [https://github.com/etcd-io/etcd-io](https://github.com/etcd-io/etcd)
+---
 
+# Distributed Platform
+## Openshift
+- Container support
+-  A container application platform that brings Docker and Kubernetes to the enterprise.
+- [https://github.com/openshift](https://github.com/openshift)
 
 ## DC/OS
-- [https://dcos.io/](https://kubernetes.io/)
-
-
-
-
+- Container + Non-container support
+- Chronos + Marathon + Aurora, etc. based on Mesos.
+- Premium paid model for extra features
+- [https://dcos.io/](https://dcos.io/)
 
 ## Hadoop Ecosystem
 [hadoop](https://hadoop.apache.org/)
@@ -335,8 +358,61 @@
 
 ---
 
-# Security
+# Distributed Framework
+## Mesos
+- Support both containerized and non-containerized (e.g. analytics and stateful data services) workloads
+- Even can run kubernetes on it
+- A distributed systems kernel (Framework)
+- [http://mesos.apache.org/](http://mesos.apache.org/)
 
+---
+
+# Container Framework
+## Docker
+- Provide operatiing-system-level virtualization
+- [https://www.docker.com/](https://kubernetes.io/)
+
+## LXC
+- Operating-system-level virtualization method for running multiple isolated Linux systems (containers) on a control host using a single Linux kernel
+- [https://linuxcontainers.org/ko/lxc/introduction/](https://linuxcontainers.org/ko/lxc/introduction/)
+
+---
+
+# Container Orchestration
+## Kubernetes
+- Open-source system for automating deployment, scaling, and management of containerized applications.
+- [https://kubernetes.io/](https://kubernetes.io/)
+
+## Marathon
+- Apache Mesos Framework for Docker orchestration
+- [https://mesosphere.github.io/marathon/](https://mesosphere.github.io/marathon/)
+
+## Docker Swarm
+- Native clustering for Docker. It turns a pool of Docker hosts into a single, virtual host.
+- [https://github.com/docker/swarm](https://github.com/docker/swarm)
+
+## Amazon ECS
+- Amazon Elastic Container Service
+- [https://aws.amazon.com/ko/ecs/](https://aws.amazon.com/ko/ecs/)
+
+## HashiCorp Nomad
+- [https://www.nomadproject.io/](https://www.nomadproject.io/)
+
+## Metronome
+- Apache Mesos framework for scheduled jobs.
+- [https://github.com/dcos/metronome](https://github.com/dcos/metronome)
+
+## Chronos
+- Apache Mesos framework for cron job  orchestration.
+- [https://github.com/mesos/chronos](https://github.com/mesos/chronos)
+
+## Aurora
+- Apache Mesos framework for long-running services and cron jobs
+- [http://aurora.apache.org/](http://aurora.apache.org/)
+
+---
+
+# Security
 ## Kerberos
 * [https://web.mit.edu/kerberos/](https://ranger.apache.org/)
 
@@ -354,15 +430,15 @@
 # Data Companies
 ## Amazone AWS
 * [https://aws.amazon.com](https://aws.amazon.com)
-* [Amazone Redshift](https://aws.amazon.com/ko/redshift/)
+* [Products](https://aws.amazon.com/ko/products/)
 
 ## Google Cloud
 * [https://cloud.google.com/](https://cloud.google.com/)
-* [Google Big query](https://cloud.google.com/bigquery/)
-* [Data Studio](https://datastudio.google.com/)
+* [Products](https://cloud.google.com/products/)
 
 ## Microsoft Azure
 * [https://azure.microsoft.com](https://azure.microsoft.com)
+* [Products](https://azure.microsoft.com/ko-kr/services/)
 
 ## Alibaba Cloud
 * [https://www.alibabacloud.com](https://www.alibabacloud.com)
