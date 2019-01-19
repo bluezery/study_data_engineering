@@ -3,279 +3,18 @@
 * How to become a data engineer?
 * Let's look at the big picture!
 
---- 
+---
 
 # Lectures
 * [Data Flair - Learn Data Engineering](https://data-flair.training/blogs/)
 
---- 
+---
 
 # Useful References
 * [https://github.com/igorbarinov/awesome-data-engineering](https://github.com/igorbarinov/awesome-data-engineering)
 * [https://github.com/meirwah/awesome-workflow-engines](https://github.com/meirwah/awesome-workflow-engines)
 * [https://github.com/manuzhang/awesome-streaming](https://github.com/manuzhang/awesome-streaming)
 * [Docker vs Kubernetes vs Apache Mesos](https://mesosphere.com/wp-content/uploads/2018/08/TheMyth-Infographic-2x.jpg)
----
-
-# Workflow
-## Airflow
-  * [https://airflow.apache.org/](https://airflow.apache.org/)
-  * [Airflow Study](airflow/)
-
-## Azkaban
-* [https://azkaban.github.io/](https://azkaban.github.io/)
-
-## Oozie
-* [http://oozie.apache.org/](http://oozie.apache.org/)
-
-## Luigi
-* [https://github.com/spotify/luigi](https://github.com/spotify/luigi)
-
-## Dkron
-* [https://dkron.io/](https://dkron.io/)
-
-## Nomad
-* [https://www.nomadproject.io/](https://www.nomadproject.io/)
-
-# Data Ingestion
-## Kafka
-- [http://kafka.apache.org/](http://kafka.apache.org/)
-
-## RabbitMQ
-* [https://www.rabbitmq.com/](https://www.rabbitmq.com/)
-
-## Sqoop
-* [http://sqoop.apache.org/](http://sqoop.apache.org/)
-
----
-
-# Data Stream Processing
-## Flink
-* [https://flink.apache.org/](https://flink.apache.org/)
-
-## Spark Streaming
-* [https://spark.apache.org/streaming/](https://spark.apache.org/streaming/)
-
----
-
-# Data Batch Processing
-## Mapreduce
-* [http://hadoop.apache.org/docs/current/hadoop-mapreduce-client/hadoop-mapreduce-client-core/MapReduceTutorial.html](http://hadoop.apache.org/docs/current/hadoop-mapreduce-client/hadoop-mapreduce-client-core/MapReduceTutorial.html)
-
-## Hive
-* [https://hive.apache.org/](https://hive.apache.org/)
-* [Hive Study](hive/)
-
-## Spark
-* [https://spark.apache.org/](https://spark.apache.org/)
-* [https://www.datacamp.com/community/tutorials/apache-spark-python](https://www.datacamp.com/community/tutorials/apache-spark-python)
-
-## Presto
-* [https://prestodb.io/](https://prestodb.io/)
-
-## Storm
-* [http://storm.apache.org](http://storm.apache.org)
-
-## Impala
-* [https://impala.apache.org](https://impala.apache.org)
-
-## Pig
-* [https://pig.apache.org/](https://pig.apache.org/)
-
-# Samza
-* [http://samza.apache.org](http://samza.apache.org)
-
-## Imply
-* [https://imply.io/](https://imply.io/)
-* powered by [Druid](#druid)
-
-## Mahout
-* [http://mahout.apache.org/](http://mahout.apache.org/)
-
-## HAWQ
-* [http://hawq.apache.org/](http://hawq.apache.org/)
-
-## Drill
-* [https://drill.apache.org/](https://drill.apache.org/)
-
-## Kylin
-* [http://kylin.apache.org](http://kylin.apache.org)
-
-----
-
-# Databases
-## MySQL
-* [https://www.mysql.com/](https://www.mysql.com/)
-
-## Mongo DB
-- [https://docs.mongodb.com/manual/mongo/](https://docs.mongodb.com/manual/mongo/)
-
-## ElasticSearch
-- [https://www.elastic.co/](https://www.elastic.co/)
-
-## Redis
-- [http://redis.io/](http://redis.io/)
-
-## HBase
-- [https://hbase.apache.org/](https://hbase.apache.org/)
-
-## InfluxDB
-- [https://github.com/influxdata/influxdb](https://github.com/influxdata/influxdb)
-
-## OpenTSDB
-- [https://github.com/OpenTSDB/opentsdb](https://github.com/OpenTSDB/opentsdb)
-
-## Prometheus
-  - [https://prometheus.io/](https://prometheus.io/)
-
-## Cassandra
-* [http://cassandra.apache.org/](http://cassandra.apache.org/)
-
-## Riak
-* [ https://github.com/basho/riak](https://github.com/basho/riak)
-
-## Druid
-* [http://druid.io/](http://druid.io/)
-
----
-
-# Business Intelligence (Analysis & Visualization)
-
-## Hue
-* [http://gethue.com/](http://gethue.com/)
-
-## Yanagishima
-* [https://github.com/yanagishima/yanagishima](https://github.com/yanagishima/yanagishima)
-
-## Tableau
-* [https://www.tableau.com/](https://www.tableau.com/)
-
-## Kibana
-* [https://www.elastic.co/products/kibana](https://www.elastic.co/products/kibana)
-
-## Grafana
-* [https://grafana.com/](https://grafana.com/)
-
-## Chronograf
-* [https://github.com/influxdata/chronograf](https://github.com/influxdata/chronograf)
-
-## Superset
-* [https://superset.incubator.apache.org/](https://superset.incubator.apache.org/)
-
-## Metabase
-* [https://www.metabase.com/](https://www.metabase.com/)
-
-## redash
-* [https://redash.io/](https://redash.io/)
-
-## Zeppelin
-* [https://zeppelin.apache.org/](https://zeppelin.apache.org/)
-
-## IBM Cognos Analytics
-* [https://www.ibm.com/products/cognos-analytics](https://www.ibm.com/products/cognos-analytics)
----
-
-# File System
-## HDFS
-* [https://hadoop.apache.org/docs/r1.2.1/hdfs_design.html](https://hadoop.apache.org/docs/r1.2.1/hdfs_design.html)
-* [HDFS Study](hdfs/)
-
----
-
-# Data Serialization Formats
-## ORC
-* [https://orc.apache.org/](https://orc.apache.org/)
-* [ORC Study](orc/)
-
-## Avro
-* [https://avro.apache.org/](https://avro.apache.org/)
-
-## JSON
-* [https://json.org/](https://json.org/)
-
-## BSON
-* [http://bsonspec.org/](http://bsonspec.org/)
-
-## Protocol Buffers
-* [https://developers.google.com/protocol-buffers/](https://developers.google.com/protocol-buffers/)
-
-## Thrift
-* [https://thrift.apache.org/](https://thrift.apache.org/)
-
-## YAML
-* [https://yaml.org/](https://yaml.org/)
-
-## XML
-* [https://www.w3.org/TR/REC-xml/](https://www.w3.org/TR/REC-xml/)
-
----
-
-# Log Collector
-## Flunetd
-* [https://www.fluentd.org/](https://www.fluentd.org/)
-
-## Logstash
-* [https://www.elastic.co/products/logstash](https://www.elastic.co/products/logstash)
-
-## Beats
-* [https://www.elastic.co/kr/products/beats](https://www.elastic.co/kr/products/beats)
-
-## StatsD
-## collectd
-## dd-agent
-## Telegraf
-## logrotate
-## Graphite
-## Flume
-
----
-
-# Tracing
-
-## Zipkin
-* [https://zipkin.io/](https://zipkin.io/)
-
----
-
-# Configuration Management
-## Ansible
-* [https://www.ansible.com/](https://www.ansible.com/)
-
-## Chef
-* [https://www.chef.io/chef/](https://www.chef.io/chef/)
-
-## Salt
-* [https://github.com/saltstack/salt](https://github.com/saltstack/salt)
-
-## CFEngine
-* [https://github.com/cfengine/core](https://github.com/cfengine/core)
-
-## Puppet
-* [https://github.com/puppetlabs/puppet](https://github.com/puppetlabs/puppet)
-
-## Vagrant
-* [https://www.vagrantup.com/](https://www.vagrantup.com/)
-
-# Web Servers
-## Nginx
-* [https://nginx.org/en/](https://nginx.org/en/)
-* [http://nginx.org/en/docs/beginners_guide.html](http://nginx.org/en/docs/beginners_guide.html)
-
-## Apache
-* [https://httpd.apache.org/](https://httpd.apache.org/)
-
-## Tomcat
-* [https://tomcat.apache.org/](https://tomcat.apache.org/)
-
-## Jetty
-* [http://www.eclipse.org/jetty/](http://www.eclipse.org/jetty/)
-
----
-
-# Distributed Synchronization Service
-## Zookeeper
-* [https://zookeeper.apache.org/](https://zookeeper.apache.org/)
-
 
 ---
 
@@ -285,19 +24,19 @@
 - [https://www.openstack.org/](https://kubernetes.io/)
 
 ## Amazone EC2
-- Commercial
+- Proprietary
 - [https://aws.amazon.com/ko/ec2/](https://aws.amazon.com/ko/ec2/)
 
 ## Google Compute Engine
-- Commercial
+- Proprietary
 - [https://cloud.google.com/compute/?hl=ko](https://cloud.google.com/compute/?hl=ko)
 
 ## Azure IaaS
-- Commercial
+- Proprietary
 - [https://azure.microsoft.com/ko-kr/overview/what-is-azure/iaas/](https://azure.microsoft.com/ko-kr/overview/what-is-azure/iaas/)
 
 ## DigitalOcean
-- Commercial
+- Proprietary
 - [https://www.digitalocean.com/products/droplets/](https://www.digitalocean.com/products/droplets/)
 
 ---
@@ -307,19 +46,20 @@
 - [https://www.cloudfoundry.org/](https://www.cloudfoundry.org/)
 
 ## Amazon Lamda
+- Proprietary
 - [https://aws.amazon.com/ko/lambda/](https://aws.amazon.com/ko/lambda/)
 
 ## Google App Engine
-- Commercial
+- Proprietary
 - [https://cloud.google.com/appengine/docs/](https://cloud.google.com/appengine/docs/)
 
 ## Microsoft App Service
-- Commercial
+- Proprietary
 - [https://azure.microsoft.com/en-us/services/app-service/?v=18.51](https://azure.microsoft.com/en-us/services/app-service/?v=18.51)
 
 ---
 
-# Linux Platform
+# Linux OS
 ## CoreOS
 - A lightweight Linux operating system designed for clustered deployments
 - [https://github.com/coreos/](https://github.com/coreos/)
@@ -339,8 +79,8 @@
 - [https://dcos.io/](https://dcos.io/)
 
 ## Hadoop Ecosystem
-[hadoop](https://hadoop.apache.org/)
-
+* [Study](hadoop.md)
+* [hadoop](https://hadoop.apache.org/)
 * Monitoring
     * [Ambari](https://hadoop.apache.org/)
 * Database
@@ -475,14 +215,271 @@
 
 ---
 
-# Libraries
-## Apache Calcite
-* [https://calcite.apache.org/](https://calcite.apache.org/)
+# Workflow
+## Airflow
+* [Study](airflow.md)
+* [https://airflow.apache.org/](https://airflow.apache.org/)  
+
+## Azkaban
+* [https://azkaban.github.io/](https://azkaban.github.io/)
+
+## Oozie
+* [http://oozie.apache.org/](http://oozie.apache.org/)
+
+## Luigi
+* [https://github.com/spotify/luigi](https://github.com/spotify/luigi)
+
+## Dkron
+* [https://dkron.io/](https://dkron.io/)
+
+## Nomad
+* [https://www.nomadproject.io/](https://www.nomadproject.io/)
+
+# Data Ingestion
+## Kafka
+- [http://kafka.apache.org/](http://kafka.apache.org/)
+
+## RabbitMQ
+* [https://www.rabbitmq.com/](https://www.rabbitmq.com/)
+
+## Sqoop
+* [http://sqoop.apache.org/](http://sqoop.apache.org/)
+
+---
+
+# Data Stream Processing
+## Flink
+* [https://flink.apache.org/](https://flink.apache.org/)
+
+## Spark Streaming
+* [https://spark.apache.org/streaming/](https://spark.apache.org/streaming/)
+
+---
+
+# Data Batch Processing
+## Mapreduce
+* [http://hadoop.apache.org/docs/current/hadoop-mapreduce-client/hadoop-mapreduce-client-core/MapReduceTutorial.html](http://hadoop.apache.org/docs/current/hadoop-mapreduce-client/hadoop-mapreduce-client-core/MapReduceTutorial.html)
+
+## Hive
+* [Study](hive.md)
+* [https://hive.apache.org/](https://hive.apache.org/)
+
+## Spark
+* [https://spark.apache.org/](https://spark.apache.org/)
+* [https://www.datacamp.com/community/tutorials/apache-spark-python](https://www.datacamp.com/community/tutorials/apache-spark-python)
+
+## Presto
+* [https://prestodb.io/](https://prestodb.io/)
+
+## Storm
+* [http://storm.apache.org](http://storm.apache.org)
+
+## Impala
+* [https://impala.apache.org](https://impala.apache.org)
+
+## Pig
+* [https://pig.apache.org/](https://pig.apache.org/)
+
+# Samza
+* [http://samza.apache.org](http://samza.apache.org)
+
+## Imply
+* Powered by [Druid](#druid)
+* [https://imply.io/](https://imply.io/)
+
+## Mahout
+* [http://mahout.apache.org/](http://mahout.apache.org/)
+
+## HAWQ
+* [http://hawq.apache.org/](http://hawq.apache.org/)
+
+## Drill
+* [https://drill.apache.org/](https://drill.apache.org/)
+
+## Kylin
+* [http://kylin.apache.org](http://kylin.apache.org)
+
+----
+
+# Databases
+## MySQL
+* [https://www.mysql.com/](https://www.mysql.com/)
+
+## Mongo DB
+- [https://docs.mongodb.com/manual/mongo/](https://docs.mongodb.com/manual/mongo/)
+
+## ElasticSearch
+- [https://www.elastic.co/](https://www.elastic.co/)
+
+## Redis
+- [http://redis.io/](http://redis.io/)
+
+## HBase
+- [https://hbase.apache.org/](https://hbase.apache.org/)
+
+## InfluxDB
+- [https://github.com/influxdata/influxdb](https://github.com/influxdata/influxdb)
+
+## OpenTSDB
+- [https://github.com/OpenTSDB/opentsdb](https://github.com/OpenTSDB/opentsdb)
+
+## Prometheus
+  - [https://prometheus.io/](https://prometheus.io/)
+
+## Cassandra
+* [http://cassandra.apache.org/](http://cassandra.apache.org/)
+
+## Riak
+* [ https://github.com/basho/riak](https://github.com/basho/riak)
+
+## Druid
+* [http://druid.io/](http://druid.io/)
+
+---
+
+# Business Intelligence (Analysis & Visualization)
+
+## Hue
+* [http://gethue.com/](http://gethue.com/)
+
+## Yanagishima
+* [https://github.com/yanagishima/yanagishima](https://github.com/yanagishima/yanagishima)
+
+## Tableau
+* [https://www.tableau.com/](https://www.tableau.com/)
+
+## Kibana
+* [https://www.elastic.co/products/kibana](https://www.elastic.co/products/kibana)
+
+## Grafana
+* [https://grafana.com/](https://grafana.com/)
+
+## Chronograf
+* [https://github.com/influxdata/chronograf](https://github.com/influxdata/chronograf)
+
+## Superset
+* [https://superset.incubator.apache.org/](https://superset.incubator.apache.org/)
+
+## Metabase
+* [https://www.metabase.com/](https://www.metabase.com/)
+
+## redash
+* [https://redash.io/](https://redash.io/)
+
+## Zeppelin
+* [https://zeppelin.apache.org/](https://zeppelin.apache.org/)
+
+## IBM Cognos Analytics
+* [https://www.ibm.com/products/cognos-analytics](https://www.ibm.com/products/cognos-analytics)
+---
+
+# File System
+## HDFS
+* [Study](hdfs.md)
+* [https://hadoop.apache.org/docs/r1.2.1/hdfs_design.html](https://hadoop.apache.org/docs/r1.2.1/hdfs_design.html)
+
+
+---
+
+# Data Serialization Formats
+## ORC
+* [Study](orc.md)
+* [https://orc.apache.org/](https://orc.apache.org/)
+
+## Avro
+* [https://avro.apache.org/](https://avro.apache.org/)
+
+## JSON
+* [https://json.org/](https://json.org/)
+
+## BSON
+* [http://bsonspec.org/](http://bsonspec.org/)
+
+## Protocol Buffers
+* [https://developers.google.com/protocol-buffers/](https://developers.google.com/protocol-buffers/)
+
+## Thrift
+* [https://thrift.apache.org/](https://thrift.apache.org/)
+
+## YAML
+* [https://yaml.org/](https://yaml.org/)
+
+## XML
+* [https://www.w3.org/TR/REC-xml/](https://www.w3.org/TR/REC-xml/)
+
+---
+
+# Log Collector
+## Flunetd
+* [https://www.fluentd.org/](https://www.fluentd.org/)
+
+## Logstash
+* [https://www.elastic.co/products/logstash](https://www.elastic.co/products/logstash)
+
+## Beats
+* [https://www.elastic.co/kr/products/beats](https://www.elastic.co/kr/products/beats)
+
+## StatsD
+## collectd
+## dd-agent
+## Telegraf
+## logrotate
+## Graphite
+## Flume
+
+---
+
+# Tracing
+
+## Zipkin
+* [https://zipkin.io/](https://zipkin.io/)
+
+---
+
+# Configuration Management
+## Ansible
+* [https://www.ansible.com/](https://www.ansible.com/)
+
+## Chef
+* [https://www.chef.io/chef/](https://www.chef.io/chef/)
+
+## Salt
+* [https://github.com/saltstack/salt](https://github.com/saltstack/salt)
+
+## CFEngine
+* [https://github.com/cfengine/core](https://github.com/cfengine/core)
+
+## Puppet
+* [https://github.com/puppetlabs/puppet](https://github.com/puppetlabs/puppet)
+
+## Vagrant
+* [https://www.vagrantup.com/](https://www.vagrantup.com/)
+
+# Web Servers
+## Nginx
+* [https://nginx.org/en/](https://nginx.org/en/)
+* [http://nginx.org/en/docs/beginners_guide.html](http://nginx.org/en/docs/beginners_guide.html)
+
+## Apache
+* [https://httpd.apache.org/](https://httpd.apache.org/)
+
+## Tomcat
+* [https://tomcat.apache.org/](https://tomcat.apache.org/)
+
+## Jetty
+* [http://www.eclipse.org/jetty/](http://www.eclipse.org/jetty/)
+
+---
+
+# Distributed Synchronization Service
+## Zookeeper
+* [https://zookeeper.apache.org/](https://zookeeper.apache.org/)
 
 ---
 
 # Uncategorized
 ## Data Visualization libraries
+* Apache Calcite [https://calcite.apache.org/](https://calcite.apache.org/)
 * d3.js
 * chart.js
 * Leaflet.js
