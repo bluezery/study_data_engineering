@@ -78,24 +78,6 @@
 - Premium paid model for extra features
 - [https://dcos.io/](https://dcos.io/)
 
-## Hadoop Ecosystem
-* [Study](hadoop.md)
-* [hadoop](https://hadoop.apache.org/)
-* Monitoring
-    * [Ambari](https://hadoop.apache.org/)
-* Database
-    * [HBase](#hbase)
-* Processing
-    * [Map Reduce](#mapreduce)
-    * [hive](#hive)
-    * [Pig](#pig)
-* Execution Engine
-    * [Tez](https://tez.apache.org/)
-* Resource Manager
-    * [Yarn](https://hadoop.apache.org/docs/current/hadoop-yarn/hadoop-yarn-site/YARN.html)
-* FileSystem
-    * [HDFS](#hdfs)
-
 ---
 
 # Distributed Framework
@@ -149,6 +131,32 @@
 ## Aurora
 - Apache Mesos framework for long-running services and cron jobs
 - [http://aurora.apache.org/](http://aurora.apache.org/)
+
+---
+# Data warehouse (Datalake)
+## Hadoop Ecosystem
+* [Study](hadoop.md)
+* [hadoop](https://hadoop.apache.org/)
+* Monitoring
+    * [Ambari](https://hadoop.apache.org/)
+* Database
+    * [HBase](#hbase)
+* Processing
+    * [Map Reduce](#mapreduce)
+    * [hive](#hive)
+    * [Pig](#pig)
+* Execution Engine
+    * [Tez](https://tez.apache.org/)
+* Resource Manager
+    * [Yarn](https://hadoop.apache.org/docs/current/hadoop-yarn/hadoop-yarn-site/YARN.html)
+* FileSystem
+    * [HDFS](#hdfs)
+
+## Amazon Redshift
+* https://aws.amazon.com/ko/redshift/
+
+## Snowflake
+* https://www.snowflake.com/
 
 ---
 
